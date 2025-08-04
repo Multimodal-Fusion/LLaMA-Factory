@@ -1,0 +1,22 @@
+# Symlink configuration for LLaMA-Factory
+# Each entry creates a symlink from the local path to ~/ssd/project/vlm/LLaMA-Factory/target
+# Format: local_path: target_name
+# Uncomment the folders you want to symlink
+
+symlinks:
+  - jobs: jobs
+  - data: data
+  - sft_vlmr1/: sft_vlmr1/
+  - logs: logs
+  - wandb: wandb
+  - saves: saves
+  # - data: data
+  # - checkpoints: checkpoints
+  # - ckpts: ckpts
+  # - outputs: outputs
+  # - exps: exps
+  # - wandb: wandb
+  # - logs: logs
+  # - cache: cache
+  # - pretrained: pretrained
+  # - models: models
