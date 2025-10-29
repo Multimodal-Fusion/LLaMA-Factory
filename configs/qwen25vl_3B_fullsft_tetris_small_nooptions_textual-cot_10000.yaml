@@ -16,7 +16,7 @@ deepspeed: examples/deepspeed/ds_z2_config.json # options: [ds_z2_config.json, d
 
 ### dataset
 # dataset: mllm_demo,identity,alpaca_en_demo
-dataset: tetris_small_nooptions[textual-cot]
+dataset: tetris_4_nooptions[textual-cot]
 template: qwen2_vl
 cutoff_len: 2048
 max_samples: 10000

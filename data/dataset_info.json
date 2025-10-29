@@ -54,8 +54,8 @@
       "assistant_tag": "assistant"
     }
   },
-  "maze_small[sft]": {
-    "file_name": "data/maze_small/train/maze_small_sharegpt.jsonl",
+  "maze_4[sft]": {
+    "file_name": "data/maze_4/train/maze_4_sharegpt.jsonl",
     "formatting": "sharegpt",
     "columns": {
       "messages": "messages[sft]",
@@ -68,8 +68,8 @@
       "assistant_tag": "assistant"
     }
   },
-  "maze_small[textual-cot]": {
-    "file_name": "data/maze_small/train/maze_small_sharegpt.jsonl",
+  "maze_4[textual-cot]": {
+    "file_name": "data/maze_4/train/maze_4_sharegpt.jsonl",
     "formatting": "sharegpt",
     "columns": {
       "messages": "messages[textual-cot]",
@@ -82,8 +82,8 @@
       "assistant_tag": "assistant"
     }
   },
-  "maze_small_nooptions[sft]": {
-    "file_name": "data/maze_small_nooptions/train/maze_small_nooptions_sharegpt.jsonl",
+  "maze_4_nooptions[sft]": {
+    "file_name": "data/maze_4_nooptions/train/maze_4_nooptions_sharegpt.jsonl",
     "formatting": "sharegpt",
     "columns": {
       "messages": "messages[sft]",
@@ -96,8 +96,8 @@
       "assistant_tag": "assistant"
     }
   },
-  "maze_small_nooptions[textual-cot]": {
-    "file_name": "data/maze_small_nooptions/train/maze_small_nooptions_sharegpt.jsonl",
+  "maze_4_nooptions[textual-cot]": {
+    "file_name": "data/maze_4_nooptions/train/maze_4_nooptions_sharegpt.jsonl",
     "formatting": "sharegpt",
     "columns": {
       "messages": "messages[textual-cot]",
@@ -110,8 +110,8 @@
       "assistant_tag": "assistant"
     }
   },
-  "tetris_small[sft]": {
-    "file_name": "data/tetris_small/train/tetris_small_sharegpt.jsonl",
+  "tetris_4[sft]": {
+    "file_name": "data/tetris_4/train/tetris_4_sharegpt.jsonl",
     "formatting": "sharegpt",
     "columns": {
       "messages": "messages[sft]",
@@ -124,8 +124,8 @@
       "assistant_tag": "assistant"
     }
   },
-  "tetris_small[textual-cot]": {
-    "file_name": "data/tetris_small/train/tetris_small_sharegpt.jsonl",
+  "tetris_4[textual-cot]": {
+    "file_name": "data/tetris_4/train/tetris_4_sharegpt.jsonl",
     "formatting": "sharegpt",
     "columns": {
       "messages": "messages[textual-cot]",
@@ -138,8 +138,8 @@
       "assistant_tag": "assistant"
     }
   },
-  "tetris_small_nooptions[sft]": {
-    "file_name": "data/tetris_small_nooptions/train/tetris_small_nooptions_sharegpt.jsonl",
+  "tetris_4_nooptions[sft]": {
+    "file_name": "data/tetris_4_nooptions/train/tetris_4_nooptions_sharegpt.jsonl",
     "formatting": "sharegpt",
     "columns": {
       "messages": "messages[sft]",
@@ -152,8 +152,8 @@
       "assistant_tag": "assistant"
     }
   },
-  "tetris_small_nooptions[textual-cot]": {
-    "file_name": "data/tetris_small_nooptions/train/tetris_small_nooptions_sharegpt.jsonl",
+  "tetris_4_nooptions[textual-cot]": {
+    "file_name": "data/tetris_4_nooptions/train/tetris_4_nooptions_sharegpt.jsonl",
     "formatting": "sharegpt",
     "columns": {
       "messages": "messages[textual-cot]",
