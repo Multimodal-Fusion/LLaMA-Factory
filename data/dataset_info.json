@@ -54,6 +54,118 @@
       "assistant_tag": "assistant"
     }
   },
+  "maze_small[sft]": {
+    "file_name": "data/maze_small/train/maze_small_sharegpt.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages[sft]",
+      "images": "images"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "maze_small[textual-cot]": {
+    "file_name": "data/maze_small/train/maze_small_sharegpt.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages[textual-cot]",
+      "images": "images"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "maze_small_nooptions[sft]": {
+    "file_name": "data/maze_small_nooptions/train/maze_small_nooptions_sharegpt.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages[sft]",
+      "images": "images"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "maze_small_nooptions[textual-cot]": {
+    "file_name": "data/maze_small_nooptions/train/maze_small_nooptions_sharegpt.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages[textual-cot]",
+      "images": "images"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "tetris_small[sft]": {
+    "file_name": "data/tetris_small/train/tetris_small_sharegpt.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages[sft]",
+      "images": "images"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "tetris_small[textual-cot]": {
+    "file_name": "data/tetris_small/train/tetris_small_sharegpt.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages[textual-cot]",
+      "images": "images"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "tetris_small_nooptions[sft]": {
+    "file_name": "data/tetris_small_nooptions/train/tetris_small_nooptions_sharegpt.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages[sft]",
+      "images": "images"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "tetris_small_nooptions[textual-cot]": {
+    "file_name": "data/tetris_small_nooptions/train/tetris_small_nooptions_sharegpt.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages[textual-cot]",
+      "images": "images"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
   "colorcount_4[sft]": {
     "file_name": "data/colorcount_4/train/colorcount_4_sharegpt.jsonl",
     "formatting": "sharegpt",
