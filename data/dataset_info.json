@@ -26,6 +26,34 @@
       "assistant_tag": "assistant"
     }
   },
+  "frozenlake_4_nooptions[sft]": {
+    "file_name": "data/frozenlake_4_nooptions/train/frozenlake_4_nooptions_sharegpt.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages[sft]",
+      "images": "images"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "frozenlake_4_nooptions[textual-cot]": {
+    "file_name": "data/frozenlake_4_nooptions/train/frozenlake_4_nooptions_sharegpt.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages[textual-cot]",
+      "images": "images"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
   "colorcount_4[sft]": {
     "file_name": "data/colorcount_4/train/colorcount_4_sharegpt.jsonl",
     "formatting": "sharegpt",
