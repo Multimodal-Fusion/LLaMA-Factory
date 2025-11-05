@@ -27,7 +27,7 @@ dataloader_num_workers: 4
 ### output
 output_dir: saves/qwen25vl_3B_fullsft_charcount_8_textual-cot_numsamples1000_epoch3_lr1en5-v1
 logging_steps: 10
-save_steps: 20
+save_steps: 1000000000
 plot_loss: true
 overwrite_output_dir: true
 save_only_model: true
