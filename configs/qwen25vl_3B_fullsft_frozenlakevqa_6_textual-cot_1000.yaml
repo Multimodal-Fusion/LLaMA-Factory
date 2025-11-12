@@ -1,6 +1,5 @@
 ### model
-# model_name_or_path: Qwen/Qwen2.5-VL-3B-Instruct
-model_name_or_path: /home/colligo/project/vlm/LLaMA-Factory/saves/qwen25vl_3B_fullsft_frozenlakevqa_8_textual-cot_numsamples500_epoch3_lr1en5-v1
+model_name_or_path: Qwen/Qwen2.5-VL-3B-Instruct
 # model_name_or_path: Qwen/Qwen2.5-VL-7B-Instruct
 image_max_pixels: 262144
 video_max_pixels: 16384
@@ -17,16 +16,16 @@ deepspeed: examples/deepspeed/ds_z2_config.json # options: [ds_z2_config.json, d
 
 ### dataset
 # dataset: mllm_demo,identity,alpaca_en_demo
-dataset: frozenlake_4[textual-cot]
+dataset: frozenlakevqa_6[textual-cot]
 template: qwen2_vl
 cutoff_len: 2048
-max_samples: 500
+max_samples: 1000
 overwrite_cache: true
 preprocessing_num_workers: 16
 dataloader_num_workers: 4
 
 ### output
-output_dir: saves/qwen25vl_3B_fullsft_frozenlake_4_textual-cot_numsamples500_epoch3_lr1en5-v1
+output_dir: saves/qwen25vl_3B_fullsft_frozenlakevqa_6_textual-cot_numsamples1000_epoch3_lr1en5-v1
 logging_steps: 10
 save_steps: 1000000000
 plot_loss: true
