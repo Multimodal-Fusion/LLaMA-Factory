@@ -5,7 +5,6 @@
 
 symlinks:
   - jobs: jobs
-  - data: data
   - sft_vlmr1/: sft_vlmr1/
   - logs: logs
   - wandb: wandb
